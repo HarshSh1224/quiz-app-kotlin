@@ -32,7 +32,7 @@ class FinishActivity : AppCompatActivity() {
             it!!.text = userName
         }
         tvYourScore.let{
-            it!!.text = "Your score is ${score.toString()} / ${total.toString()}"
+            it!!.text = "Your score was ${score.toString()} / ${total.toString()}"
         }
 
         btnFinish.let{
