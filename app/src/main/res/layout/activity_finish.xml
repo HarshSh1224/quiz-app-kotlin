@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg"
+    android:orientation="vertical"
+    tools:context=".FinishActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="image"
+
+        android:src="@drawable/ic_trophy" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hey, Congratulations!!"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="John"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_your_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="Your score is 9/10"
+        android:layout_marginTop="1dp"
+        android:textColor="@color/offWhite"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
