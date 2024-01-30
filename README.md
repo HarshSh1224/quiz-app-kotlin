@@ -1,3 +1,3 @@
-### Quiz App
+# Quiz App
 
-## Practce Android Development using Kotlin
+### Practce Android Development using Kotlin
